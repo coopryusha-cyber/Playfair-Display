@@ -1,0 +1,561 @@
+@import "reset.css";
+@import "fonts.css";
+@import "layout.css";
+body {
+    width: 1440px;
+    margin: 0 auto;
+    position: relative;
+    font-family: "Playfair Display";
+    section {
+    position: relative;
+    overflow: hidden;
+}
+    h2 {
+    font-size: 140px;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: 0;
+}
+h3 {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 1.19;
+}
+    background-color: #FFFEED;
+}
+.section-1 {
+    position: relative;
+    width: 1440px;
+    height: 953px;
+    background-image: url("../images/barking.svg");
+}
+.section-1 h1 {
+    position: absolute;
+    font-size: 170px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 90%;
+    letter-spacing: 2%;
+    margin: 585px 260px;
+}
+.section-1 .dog {
+    position: absolute;
+    margin: 0px 26px;
+}
+.section-1 .circle {
+    width: 99px;
+    height: 99px;
+    position: absolute;
+    border-radius: 50%;
+    background: currentColor
+}
+.section-1 .circle-1 { 
+    left: -14px; 
+    top: -17px;
+    color: #1A1212; 
+}
+.section-1 .circle-2 {
+    left: 46px;
+    top: 48px;
+    color: #F66074; 
+}
+.section-1 .circle-3 { 
+    left: 12px; 
+    top: 850px;
+    color: #1A1212; 
+}
+.section-1 .circle-4 {
+    left: 69px;
+    top: 850px;
+    color: #F66074; 
+}
+.section-1 .circle-5 { 
+    right: 20px; 
+    top: 850px;
+    color: #1A1212; 
+}
+.section-1 .circle-6 { 
+    right: -38px; 
+    top: 37px;
+    color: #1A1212; 
+}
+.section-1 .tag {
+    position: absolute;
+}
+.section-1 .tag-img {
+    display:block
+    width: 100%
+}
+.section-1 .tag p {
+    position: absolute;
+    font-size: 56px;
+    font-weight: 500;
+    line-height: 98%;
+    letter-spacing: 2%;
+}
+.section-1 .tag-left {
+    margin: 220px 0 0 0;
+    width: 327px;
+}
+.section-1 .tag-right {
+    width: 370px;
+   margin: 398px 0 0 1057px;
+}
+.section-1 .tag-right p {
+   width: 370px;
+   margin: -172px 0 0 190px; 
+}
+.section-1 .tag-left p {
+   width: 370px;
+   margin: -229px 0 0 23px;
+   transform: rotate(4.62deg);
+}
+.section-2 {
+    height: 1192px;
+}
+.section-2 .big-img {
+    position: absolute;
+    margin: 95px 134px;
+} 
+.section-2 .big-title {
+    position: absolute;
+    margin: 224px 0 0 415px;
+    font-size: 140px;
+    font-weight: 700;
+    line-height: 98%;
+    letter-spacing: 0%;
+}
+.section-2 .history {
+    position: absolute;
+    margin: 620px 140px;
+    width: 503px;
+    height: 286px;
+}
+.history strong {
+    font-weight: 700;
+}
+.history em {
+    font-style: italic;
+}
+.section-2 .red {
+    position: absolute;
+    margin: 270px 655px;
+    width: 672px;
+    height: 684px;
+}
+.section-2 .red p {
+    position: absolute;
+    margin: -302px 0 0 75px;
+    width: 545px;
+    height: 200px;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 1.25;
+    letter-spacing: 2%;
+    text-align: center;
+    transform: rotate(8deg);
+}
+.section-2 .circle {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: currentColor;
+}
+
+.section-2 .circle-1  { 
+    margin: 150px 0 0 59px;    
+    color: #F66074; 
+}
+.section-2 .circle-2  { 
+    margin: 100px 0 0 747px;   
+    color: #D3F44D; 
+}
+.section-2 .circle-3  { 
+    margin: 110px 0 0 1331px;  
+    color: #F66074; 
+}
+.section-2 .circle-4  { 
+    margin: 215px 0 0 989px;  
+    color: #1A1212; 
+}
+.section-2 .circle-5  { 
+    margin: 218px 0 0 1020px; 
+    color: #D3F44D; 
+}
+.section-2 .circle-6  { 
+    margin: 360px 0 0 696px;  
+    color: #D3F44D; 
+}
+.section-2 .circle-7  { 
+    margin: 425px 0 0 226px;  
+    color: #D3F44D; 
+}
+.section-2 .circle-8  { 
+    margin: 515px 0 0 69px;   
+    color: #1A1212; 
+}
+.section-2 .circle-9  { 
+    margin: 625px 0 0 69px;   
+    color: #D3F44D; 
+}
+.section-2 .circle-10 { 
+    margin: 780px 0 0 69px;   
+    color: #D3F44D; 
+}
+.section-2 .circle-11 { 
+    margin: 1015px 0 0 59px;   
+    color: #F66074; 
+}
+.section-2 .circle-12 { 
+    margin: 990px 0 0 1334px; 
+    color: #F66074; 
+}
+.section-3 {
+    height: 2897px;
+    border-radius: 40px;
+    background-color: #DFA9F4;
+}
+.section-3 h2 {
+    position: absolute;
+    margin: 50px 58px;
+}
+.section-3 .dog {
+    position: absolute;
+}
+.section-3 .dog-img {
+    display: block;
+    width: 100%;
+}
+.section-3 .dog-left {
+    margin: 285px 0 0 45px;
+    width: 634px;
+}
+.section-3 .dog-right {
+    margin: 1800px 0 0 198px;
+    width: 1181px;
+    
+}
+.section-3 .carpet {
+    position: absolute;
+    margin: 955px 0 0 95px;
+    width: 1248px;
+}
+.section-3 .carpet-img {
+    display: block;
+    width: 100%;
+}
+.section-3 .carpet p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -78px 0 0 -232px;
+    width: 473px;
+    height: 160px;
+    display: flex;
+    text-align: center;
+    line-height: normal;
+    font-size: 30px;
+    font-weight: 800;
+}
+.section-3 .gaf {
+    position: absolute;
+    width: 476px;
+    margin: 468px 869px;
+}
+.section-3 .gaf p {
+    position: absolute;
+    margin: -447px 0 0 140px;
+    font-size: 270px;
+    font-weight: 400;
+    color: #1A1212;
+}
+.section-3 .food-img {
+    position: absolute;
+    width: 1162px;
+    height: 624px;
+    margin: 2270px 0 0 340px;
+}
+.section-3 .pets-text {
+    position: absolute;
+}
+.section-3 .pets-text h3 {
+    margin: 0 0 26px 0;
+}
+.section-3 .pets-text strong {
+    font-weight: 700;
+}
+.section-3 .pets-text strong.black{
+    font-weight: 900;
+}
+.section-3 .pets-text em {
+    font-style: italic;
+}
+
+.section-3 .pets-info {
+    margin: 243px 0 0 859px;
+    width: 524px;
+    line-height: 0;
+}
+.section-3 .pets-feed {
+    margin: 2333px 0 0 138px;
+    width: 583px;
+    line-height: 0;
+}
+.section-3 .circle {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: currentColor;
+    color: #1A1212;
+}
+.section-3 .circle-a {
+    margin: 353px 793px;
+}
+.section-3 .circle-b {
+    margin: 250px 793px;
+}
+.section-3 .circle-c {
+    margin: 2338px 63px;
+}
+.section-3 .circle-d {
+    margin: 2440px 63px;
+}
+.section-4 {
+    height: 1831px;
+}
+.section-4 .big-title {
+    position: absolute;
+    margin: 87px 65px;
+    line-height: 1.04;
+}
+.section-4 .num {
+    font-size: 180px;
+    line-height: 0;
+}
+.section-4 .glyph {
+    position: absolute;
+}
+.section-4 .glyph-img {
+    display: block;
+    width: 100%;
+}
+.section-4 .glyph-sobaka {
+    position: absolute;
+    margin: 680px 0 0 650px;
+    width: 248px;
+}
+.section-4 .glyph-eight {
+    position: absolute;
+    margin: 1305px 0 0 82px;
+    width: 472px;
+    
+}
+.section-4 .purple {
+    position: absolute;
+    margin: 0;
+    width: 854px;
+    height: 802px;
+}
+.section-4 .purple-img {
+    position: absolute;
+    display: block;
+    width: 100%;
+    margin: 880px 0 0 550px;
+    transform: rotate(0deg);
+}
+.section-4 .purple p {
+    position: absolute;
+    margin: 1440px 0 0 680px;
+    width: 613px;
+    height: 165px;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 1.13;
+    letter-spacing: 2%;
+    text-align: center;
+    transform: rotate(7deg);
+}
+.section-4 .purple p strong {
+    font-weight: 700;
+}
+.section-4 .purple p strong.black {
+    font-weight: 900;
+}
+.section-4 .purple p strong.semibold {
+    font-weight: 800;
+}
+.section-4 .purple p em {
+    font-style: italic;
+}
+.section-4 .circle {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: currentColor;
+}
+.section-4 .circle-1 { 
+    margin: 75px 0 0 831px;   
+    color: #D4F44A; 
+}  
+.section-4 .circle-2 { 
+    margin: 116px 0 0 558px;  
+    color: #F95F73; 
+}  
+.section-4 .circle-3 { 
+    margin: 167px 0 0 1125px; 
+    color: #1A1212; 
+}  
+.section-4 .circle-4 { 
+    margin: 188px 0 0 1155px; 
+    color: #D4F44A; 
+} 
+.section-4 .circle-5 { 
+    margin: 351px 0 0 1317px; 
+    color: #F95F73; 
+}  
+.section-4 .circle-6 { 
+    margin: 406px 0 0 434px;  
+    color: #F95F73; 
+}
+.section-4 .petfood-img {
+    position: absolute;
+    margin: 483px 0 0 65px;
+    width: 550px;
+}
+
+.section-4 .petfood-text {
+    position: absolute;
+    margin: 550px 0 0 162px;
+    width: 393px;
+    height: 639px;
+    display: flex;
+    flex-direction: column;
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 66px;         
+    color: #1A1212;
+    transform: rotate(-12deg);
+}
+.section-4 .petfood-text span:nth-child(odd)  { 
+    align-self: flex-start; 
+}
+.section-4 .petfood-text span:nth-child(even) { 
+    
+    align-self: flex-end; }
+.section-4 .petfood-text span:nth-child(8) { 
+    margin-right: 45px; 
+}
+.section-4 .petfood-text span:nth-child(1) {
+    margin-left: 64px;
+}
+.section-4 .petfood-text span:nth-child(9) {
+    margin-right: 50px;
+}
+.section-4 .petfood-text span:nth-child(6) {
+    margin-right: 20px;
+}
+.section-4 .lang-text {
+    position: absolute;
+    margin: 425px 0 0 933px;  
+    width: 456px;
+}
+.section-4 .lang-text h3 {
+    margin: 0 0 20px 0;         
+    line-height: 36px;   
+}
+.section-4 .lang-text strong {
+     font-weight: 800; 
+    }
+.section-4 .lang-text em { 
+    font-style: italic; 
+}
+.section-5 {
+    position: relative;
+    height: 1165px;
+}
+.section-5 .gaf-bg {
+    position: absolute;
+    display: block;
+    width: 1440px;
+    margin: 685px 0 0 0;    
+}
+.section-5 .big-title {
+    position: absolute;
+    margin: 44px 0 0 55px;
+    width: 1226px;
+    height: 280px;    
+}
+.section-5 .free-text {
+    position: absolute;
+    margin: 377px  0 0 796px;
+    width: 595px;
+    height: 108px;
+    line-height: 36px;      
+}
+.section-5 .free-text strong { 
+    font-weight: 800; 
+}
+.section-5 .blue-sticker {
+    position: absolute;
+    display: block;
+    width: 594px;
+    margin: 360px 0 0 30px;
+}
+.section-5 .circle {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: currentColor;
+}
+.section-5 .circle-1 { 
+    margin: -60px 0 0 818px;  
+    color: #D4F44A; 
+}
+.section-5 .circle-2 { 
+    margin: 18px 0 0 559px;   
+    color: #F95F73; 
+}  
+.section-5 .circle-3 { 
+    margin: 220px 0 0 810px;  
+    color: #1A1212; 
+}  
+.section-5 .circle-4 { 
+    margin: 315px 0 0 442px;  
+    color: #F95F73; 
+}  
+.section-5 .circle-5 { 
+    margin: 300px 0 0 1319px;
+    color: #F95F73;
+} 
+.section-6 {
+    width: 1440px;
+    height: 245px;
+    background: #F95F73;
+    border-radius: 70px 70px 0 0;
+    color: #FFFEED;
+}
+.section-6 {
+    margin-top: -65px;
+}
+.section-6 .author-name {
+    position: absolute;
+    margin: 55px 0 0 55px;
+    font-size: 36px;
+    font-weight: 600;       
+    line-height: 1.2;
+}
+.section-6 .author-info {
+    position: absolute;
+    margin: 120px 0 0 55px;
+    color: #FFFEED;
+}
+.section-6 .hse-logo {
+    position: absolute;
+    display: block;
+    width: 309px;
+    margin: 63px 0 0 1080px;
+}
